@@ -1,0 +1,78 @@
+h1 {
+    color: blue;
+    background-image: linear-gradient(to right, green, lightpink, white);
+}
+
+#heading2{
+    color: orange;
+}
+
+h2{
+    color: green;
+}
+
+.tablestyle{
+   
+   
+    border: 2px solid yellow;
+}
+
+body{
+    width: 70%;
+    background-image: linear-gradient(to right, white, royalblue, yellow);
+    margin: 0 auto;
+}
+
+img{
+    border-radius: 20%;
+}
+
+#section1 {
+    width: 50%;
+    
+}
+
+#section2 {
+    width: 50%;
+    
+}
+
+section{
+    border: 3px dashed red;
+}
+main{
+    display: flex;
+    border: 2px solid orange;
+    
+}
+
+th, td
+{
+    
+    color: white;
+    border: 2px solid yellowgreen;
+    padding: 20px;
+}
+
+.lightgray {
+    background-color: lightgray;
+}
+
+
+td:nth-child(even),
+th:nth-child(even) {
+   background-color: orange;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+main{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.video {
+    border:3px solid yellowgreen
+}
